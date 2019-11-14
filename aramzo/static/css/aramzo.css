@@ -98,14 +98,14 @@ p {
 }
 
 @font-face {
-    src: url(/static/fonts/fontawesome-webfont.ttf);
+    src: url(../fonts/fontawesome-webfont.ttf);
     font-family: 'fo';
 }
 
 @font-face {
     font-family: 'GothamPro';
     font-weight: normal;
-    src: url('/static/fonts/Gotham Pro.ttf');
+    src: url('../fonts/Gotham Pro.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -113,7 +113,7 @@ p {
 @font-face {
     font-family: 'GothamPro';
     font-weight: normal;
-    src: url('/static/fonts/Gotham Pro light italic.ttf');
+    src: url('../fonts/Gotham Pro light italic.ttf');
     font-weight: normal;
     font-style: italic;
 }
@@ -121,7 +121,7 @@ p {
 @font-face {
     font-family: 'GothamPro';
     font-weight: normal;
-    src: url('/static/fonts/GothamPro-Black.ttf');
+    src: url('../fonts/GothamPro-Black.ttf');
     font-weight: 900;
     font-style: normal;
 }
@@ -129,7 +129,7 @@ p {
 @font-face {
     font-family: 'GothamPro Medium';
     font-weight: normal;
-    src: url('/static/fonts/Gotham Pro medium.ttf');
+    src: url('../fonts/Gotham Pro medium.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -137,7 +137,7 @@ p {
 @font-face {
     font-family: 'GothamPro Regular';
     font-weight: normal;
-    src: url('/static/fonts/Gotham Pro regular.ttf');
+    src: url('../fonts/Gotham Pro regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -168,12 +168,12 @@ p {
     grid-template-columns: 13% 36% auto;
     width: 100%;
     height: 56.25vw;
-    background-image: url(/static/img/header-min.jpg);
+    background-image: url(../img/header-min.jpg);
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
     /* задаем фоновые изображения, для различных разрешений */
-    background-image: -webkit-image-set(url(/static/img/header-min.jpg) 1x, url(/static/img/header.jpg) 2x);
+    background-image: -webkit-image-set(url(../img/header-min.jpg) 1x, url(../img/header.jpg) 2x);
 }
 
 .nav {
@@ -515,7 +515,7 @@ p {
     display: block;
     width: 4vw;
     height: 4vw;
-    background: url(/static/img/arrow.svg) center/contain;
+    background: url(../img/arrow.svg) center/contain;
     cursor: pointer;
 }
 
@@ -607,7 +607,7 @@ p {
     display: block;
     width: 4vw;
     height: 4vw;
-    background: url(/static/img/arrow.svg) center/contain;
+    background: url(../img/arrow.svg) center/contain;
     cursor: pointer;
 }
 
@@ -713,7 +713,7 @@ p {
     display: block;
     width: 4vw;
     height: 4vw;
-    background: url(/static/img/arrow2.svg) center/contain;
+    background: url(../img/arrow2.svg) center/contain;
     cursor: pointer;
 }
 
@@ -895,7 +895,7 @@ p {
     display: block;
     width: 8vw;
     height: 8vw;
-    background: url(/static/img/big-arrow.svg) no-repeat center/contain;
+    background: url(../img/big-arrow.svg) no-repeat center/contain;
     cursor: pointer;
 }
 
@@ -1134,14 +1134,14 @@ p {
 }
 
 @font-face {
-    src: url(static/fonts/fontawesome-webfont.ttf);
+    src: url(../fonts/fontawesome-webfont.ttf);
     font-family: 'fo';
 }
 
 @font-face {
     font-family: 'GothamPro';
     font-weight: normal;
-    src: url('static/fonts/Gotham Pro.ttf');
+    src: url('../fonts/Gotham Pro.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -1149,7 +1149,7 @@ p {
 @font-face {
     font-family: 'GothamPro';
     font-weight: normal;
-    src: url('static/fonts/Gotham Pro light italic.ttf');
+    src: url('../fonts/Gotham Pro light italic.ttf');
     font-weight: normal;
     font-style: italic;
 }
@@ -1157,7 +1157,7 @@ p {
 @font-face {
     font-family: 'GothamPro';
     font-weight: normal;
-    src: url('static/fonts/GothamPro-Black.ttf');
+    src: url('../fonts/GothamPro-Black.ttf');
     font-weight: 900;
     font-style: normal;
 }
@@ -1165,7 +1165,7 @@ p {
 @font-face {
     font-family: 'GothamPro Medium';
     font-weight: normal;
-    src: url('static/fonts/Gotham Pro medium.ttf');
+    src: url('../fonts/Gotham Pro medium.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -1173,7 +1173,7 @@ p {
 @font-face {
     font-family: 'GothamPro Regular';
     font-weight: normal;
-    src: url('static/fonts/Gotham Pro regular.ttf');
+    src: url('../fonts/Gotham Pro regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -1204,12 +1204,12 @@ p {
     grid-template-columns: 13% 36% auto;
     width: 100%;
     height: 56.25vw;
-    background-image: url(static/img/header-min.jpg);
+    background-image: url(../img/header-min.jpg);
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
     /* Ð·Ð°Ð´Ð°ÐµÐ¼ Ñ„Ð¾Ð½Ð¾Ð²Ñ‹Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ, Ð´Ð»Ñ Ñ€Ð°Ð·Ð»Ð¸Ñ‡Ð½Ñ‹Ñ… Ñ€Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ð¸Ð¹ */
-    background-image: -webkit-image-set(url(static/img/header-min.jpg) 1x, url(static/img/header.jpg) 2x);
+    background-image: -webkit-image-set(url(../img/header-min.jpg) 1x, url(../img/header.jpg) 2x);
 }
 
 .nav {
@@ -1551,7 +1551,7 @@ p {
     display: block;
     width: 4vw;
     height: 4vw;
-    background: url(static/img/arrow.svg) center/contain;
+    background: url(../img/arrow.svg) center/contain;
     cursor: pointer;
 }
 
@@ -1643,7 +1643,7 @@ p {
     display: block;
     width: 4vw;
     height: 4vw;
-    background: url(static/img/arrow.svg) center/contain;
+    background: url(../img/arrow.svg) center/contain;
     cursor: pointer;
 }
 
@@ -1749,7 +1749,7 @@ p {
     display: block;
     width: 4vw;
     height: 4vw;
-    background: url(static/img/arrow2.svg) center/contain;
+    background: url(../img/arrow2.svg) center/contain;
     cursor: pointer;
 }
 
@@ -1931,7 +1931,7 @@ p {
     display: block;
     width: 8vw;
     height: 8vw;
-    background: url(static/img/big-arrow.svg) no-repeat center/contain;
+    background: url(../img/big-arrow.svg) no-repeat center/contain;
     cursor: pointer;
 }
 
@@ -1960,6 +1960,8 @@ p {
 /* instagram */
 
 .instagram {
+    overflow: hidden;
+    max-width: 100%;
     padding-left: 13.5%;
     padding-right: 13.5%;
     display: grid;
@@ -2025,7 +2027,7 @@ p {
     padding-left: 13.5%;
     padding-right: 13.5%;
     grid-template-columns: 17em repeat(4, max-content);
-    grid-gap: 5vw;
+    grid-gap: 4.5vw;
 }
 
 @media(max-width:1025px) {
