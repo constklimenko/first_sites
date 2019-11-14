@@ -1945,11 +1945,11 @@ p {
         margin-top: 0;
     }
     .journal__nav__next {
-        right: 70%;
+        right: 65%;
     }
     .journal__nav__prev,
     .journal__nav__next {
-        top: 20%;
+        top: 15%;
     }
 }
 
